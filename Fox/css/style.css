@@ -8,6 +8,7 @@ a{
     color:#ff8f00;
 }
 body{
+    background: #212121;
     color: #ff8f00;
     font-family: 'SairaCondensed';
 }
@@ -33,19 +34,29 @@ nav{
 nav li{
     text-align: center;
     width: calc(20% - 10px);
+    
 }
 nav li a{
     font-size: 38px;
     font-weight: 500;
+    transition: all 1s;
 }
 nav li a:hover{
     color: white;
 }
 .navActive a{font-size: 45px;}
 .navOver a{font-size: 30px;}
-
-main{
-    position:relative;
+.navMobile{
+    /* display: none; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+.logo{
+    display: none;
+}
+main{ 
+    position:relative; 
     background: url('../images/fox_bg.jpg') center center/ cover no-repeat;
     height: 90vh;
     display: flex;
@@ -60,15 +71,18 @@ main{
 .mainH p{
     font-size: 1.3vw;
 }
-.fp{
+.mainH{
     position: relative;
-    bottom: 3.4vw;
+}
+.fp{
+    position: absolute;
+    bottom: 1.4vw;
     left: 3.4vw;
 }
 .sp{
-    position: relative;
+    position: absolute;
     left: 19vw;
-    bottom: 3.4vw;
+    bottom: 1.4vw;
 }
 .down{
     font-size: 20px;
@@ -78,6 +92,7 @@ main{
     transform: translateX(-50%);
     margin-bottom: 20px;
 }
+
 .down p {
     height: 20px;
 }
@@ -98,7 +113,8 @@ main{
 section{
     text-align: center;
     background: #606060;
-    min-height: 600px;
+    min-height: 300px;
+    padding-bottom: 100px;
 }
 section h2{
     margin-top: 50px;
@@ -108,7 +124,7 @@ section h2{
     padding: 0 30px;
     margin: 0 auto;
     max-width: 800px;
-    min-width: 400px;
+    min-width: 200px;
     font-size: 25px;
 }
 .dupd{
@@ -129,17 +145,28 @@ footer{
     font-size: 23px;
 }
 .footerLinks{
-    margin-right: 120px;
+    margin-right: 7%;
     text-align: center;
-    width: 23%;
+    /* width: 300px; */
+    width: 7%;
+    min-width: 250px; 
 }
 .footerLinks h4{
     font-size: 26px;
     /* margin-bottom: 15px; */
 }
+.ico{
+    transition: all 0.8s;
+}
+.social p{
+    transition: all 0.8s;
+}
 
-.ico:hover{
+.social:hover .ico{
     box-shadow: 0 0 10px 5px #ff8f00;
+}
+.social:hover p{
+    color: white
 }
 
 .ico1{
@@ -150,6 +177,7 @@ footer{
 }
 .ico2{
     font-size: 35px;
+    /* margin-top: 15px; */
     border-radius: 5px;
 }
 .ico3{
@@ -159,8 +187,11 @@ footer{
 .ico4{
     font-size: 25px;
     border-radius: 100%;
+    /* margin-top: 20px; */
 }
 .ico5{
     font-size: 20px;
     border-radius: 100%;
 }
+
+

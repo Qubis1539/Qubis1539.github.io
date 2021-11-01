@@ -6,10 +6,10 @@
 
 /* ползунок скроллбара */
 ::-webkit-scrollbar-thumb {
-    background-color: #253861;
     border-radius: 9em;
+    background: linear-gradient( #212121 5%,#ff8f00, #212121 95%);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #ff8f00;
+    background: #ff8f00;
 }
