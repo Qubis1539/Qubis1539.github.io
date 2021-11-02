@@ -44,7 +44,7 @@
 
 .other{
     height: 21vw;
-    width: 36%;
+    width: calc(36% - 14px);
 }
 .allArts{
     width: 100%;
@@ -55,19 +55,19 @@
     display: flex;
     align-items: center;
     
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 .description{
     color: white;
     padding: 1%;
-    max-width: 29.57%;
-    width: 29.57%;
     font-size: 25px;
+    width: calc(30% + 7px);
+}
+.invis{
+    width: calc(32% + 7px);
 }
 
 .b2{
-    flex-direction: row-reverse;
-    justify-content: start;
     text-align: right;
     
 }
