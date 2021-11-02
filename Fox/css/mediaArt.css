@@ -33,6 +33,7 @@
     .imageBox{
         flex-direction: column;
     }
+    
     .description{
         /* width: 150%; */
         max-width: 100%;
