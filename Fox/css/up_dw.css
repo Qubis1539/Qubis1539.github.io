@@ -29,6 +29,14 @@ nav{
     height: 2px;
     background: #ff8f00;
     box-shadow: 0px 0px 55px 6px #ff8f00;
+    animation: lamp 3s;
+}
+@keyframes lamp {
+    0%{box-shadow: 0px 0px 0px 0px #ff8f00;}
+   
+
+    100%{box-shadow: 0px 0px 55px 6px #ff8f00;}
+    
 }
 
 nav li{
@@ -39,7 +47,7 @@ nav li{
 nav li a{
     font-size: 38px;
     font-weight: 500;
-    transition: all 1s;
+    /* transition: all 1s; */
 }
 nav li a:hover{
     color: white;
