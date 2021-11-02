@@ -16,7 +16,7 @@ main{
     position: relative;
 }
 .hSpan{
-    animation: hidden 4s;
+    animation: hidden 3s;
 }
 @-webkit-keyframes hidden {
     0%{
