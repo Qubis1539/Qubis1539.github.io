@@ -1,0 +1,36 @@
+@media (max-width: 1200px) {
+    section h2{
+        font-size: 50px;
+    }
+    .mainText{
+        font-size: 22px;
+    }
+    
+}
+@media (max-width: 769px) {
+    section h2{
+        font-size: 40px;
+    }
+    .mainText{
+        font-size: 20px;
+    }
+}
+@media (max-width: 630px) {
+    section h2{
+        font-size: 35px;
+    }
+    .mainText{
+        font-size: 18px;
+    }
+    .mainHN{
+        display: none;
+    }
+}
+@media (max-width: 430px) {
+    section h2{
+        font-size: 30px;
+    }
+    .mainText{
+        font-size: 18px;
+    }
+}

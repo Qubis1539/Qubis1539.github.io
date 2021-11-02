@@ -1,0 +1,70 @@
+
+main{ 
+    position:relative; 
+    background: url('../images/fox_bg.jpg') center center/ cover no-repeat;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 4vw;
+    padding: 0 20px;
+}
+.mainH p{
+    font-size: 1.3vw;
+}
+.mainH{
+    position: relative;
+}
+.fp{
+    position: absolute;
+    bottom: 1.4vw;
+    left: 3.4vw;
+}
+.sp{
+    position: absolute;
+    left: 19vw;
+    bottom: 1.4vw;
+}
+.down{
+    font-size: 20px;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 20px;
+}
+
+.down p {
+    height: 20px;
+}
+.down a{
+    color: white;
+}
+.arrow{
+    font-size: 45px;
+    text-align: center;
+    height: 45px;
+    /* transform: rotate(-90deg);
+    position: relative;
+    bottom:50px */
+}
+.upd{
+    box-shadow: 0px 0px 300px 30px #ff8f00;
+}
+section{
+    text-align: center;
+    background: #606060;
+    min-height: 300px;
+    padding-bottom: 100px;
+}
+section h2{
+    margin-top: 50px;
+    font-size: 60px;
+}
+.mainText{
+    padding: 0 30px;
+    margin: 0 auto;
+    max-width: 800px;
+    min-width: 200px;
+    font-size: 25px;
+}

@@ -1,0 +1,73 @@
+.content{
+    background: linear-gradient(#80623c, #725f45 20%, #606060 50%);
+    padding: 7vh 0;
+}
+.mainHeader{
+    text-align: right;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+.content_box{
+    margin: 0 auto;
+    min-width: 300px;
+    max-width: 85vw;
+}
+.img{
+    display: block;
+    object-fit: cover;
+
+    object-position: 0 -80px;
+    border: 7px solid #ff8f00;
+    border-radius: 20px;
+}
+.MainImageBox{
+    margin: 0 auto;
+    width: 70%;
+}
+.mainImg{
+    width: 100%;
+    height: 30vw;
+}
+.title{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.header_box{
+    margin-right: 14%;
+}
+.title{
+    font-size: 30px;
+}
+.titleHeader{
+    font-size: 60px;
+}
+
+.other{
+    height: 21vw;
+    width: 36%;
+}
+.allArts{
+    width: 100%;
+}
+.imageBox{
+    /* width: 40%; */
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    
+    justify-content: flex-end;
+}
+.description{
+    color: white;
+    padding: 1%;
+    max-width: 29.57%;
+    width: 29.57%;
+    font-size: 25px;
+}
+
+.b2{
+    flex-direction: row-reverse;
+    justify-content: start;
+    text-align: right;
+    
+}
