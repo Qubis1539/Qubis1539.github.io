@@ -1,0 +1,43 @@
+#canvas
+    width: calc(100vw - 17px)
+    min-width: 320px
+    height: 100vh
+    display: flex
+    justify-content: center
+    align-items: center
+    position: fixed
+    top: 0
+    left: 0
+    z-index: -10
+    overflow-x: hidden 
+.pre-veiw
+    height: 100vh
+    position: relative
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    overflow-x: hidden
+
+    &__main
+        // position: absolute
+        // top: 100px
+        text-align: center
+        margin-bottom: 50px
+        z-index: 1
+        
+    &__heading
+        font-family: 'Russo One', sans-serif
+        color: #fff
+        font-weight: 400
+        letter-spacing: 0.1em
+        font-size: 26px
+        line-height: 46px
+        &-red
+            color: #e31b6d
+            font-size: 1.2em
+
+    &__subHeading
+        color: #fff
+        font-weight: 400
+        letter-spacing: 0.1em

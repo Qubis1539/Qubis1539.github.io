@@ -1,0 +1,67 @@
+@media (max-width: 1220px) 
+    .container
+        max-width: 820px
+
+@media (max-width: 900px) 
+    .container
+        max-width: 720px
+    .about__box
+        flex-direction: column
+        align-items: center
+    .about__photo
+        margin: 0
+        margin-bottom: 40px
+    .about__subbox
+        // flex-direction: column
+        align-items: center
+        flex-wrap: wrap
+        justify-content: center
+    .works
+        flex-direction: column
+    .portfolio .works__item
+        width: 100%
+
+@media (max-width: 768px)
+    .container
+        max-width: 480px
+    .header
+        height: 64px
+    .hamburger
+        display: block
+    .nav
+        // display: none
+        position: absolute
+        height: 100vh
+        width: 100vw
+        top: 63px
+        transform: scaleY(0)
+        transform-origin: top center
+        transition: transform 1s
+        &__list
+            flex-direction: column
+            align-items: center
+            justify-content: space-evenly
+            height: 50%
+        &__item
+            padding: 20px 0
+    .active
+        transform: scaleY(1)
+
+@media (max-width: 500px)
+    .container
+        max-width: 300px
+    .pre-veiw__heading   
+        line-height: 26px     
+        font-size: 20px 
+    .pre-veiw__heading-red
+        display: block
+    .pre-veiw__subHeading
+        font-size: 16px
+    .about
+        &__photo
+            width: 100%
+            height: auto
+        .skillList__name
+            width: 60px
+        .skillList__line
+            width: 200px
