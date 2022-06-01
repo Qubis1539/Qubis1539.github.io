@@ -13,12 +13,22 @@
         flex-direction: row
         align-items: start
     &__photo
-        
-            display: inline-block
+        display: block
+        width: 400px
+        height: 600px
+        object-fit: cover
+        margin-right: 30px
+    &__imgWrp
+        position: relative
+        &::before
+            content: ""
+            display: block
             width: 400px
             height: 600px
-            object-fit: cover
-            margin-right: 30px
+            position: absolute
+            top: 0
+            left: 0
+            z-index: 1
     .skillList
         display: flex
         flex-direction: column
