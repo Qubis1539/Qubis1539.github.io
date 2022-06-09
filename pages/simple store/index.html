@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="header-wrp">
+        <div class="container">
+            <header class="header">
+                <div class="header__logo">
+                    LOGO
+                </div>
+                <nav class="nav">
+                    <a href="#" class="nav__item link"><img src="img/icons/profile.svg" alt="" class="nav__ico"></a>
+                    <a href="#" class="nav__item link"><img src="img/icons/favoritesBlack.svg" alt="" class="nav__ico"></a>
+                    <a href="#" class="nav__item link"><img src="img/icons/store.svg" alt="" class="nav__ico"></a>
+                    <div class="nav__item nav__burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </nav>
+                <nav class="nav-mobile">
+                    <a href="#" class="nav-mobile__item link">постельное белье</a>
+                    <a href="#" class="nav-mobile__item link">одежда для дома</a>
+                    <a href="#" class="nav-mobile__item link">Одежда для улицы</a>
+                    <a href="#" class="nav-mobile__item link">ВЫход</a>
+                </nav>
+            </header>
+        </div>
+    </div>
+
+    <main class="container">
+        <section class="product">
+            <div class="slider">
+                <img src="img/product1.jpg" alt="" class="slider__main">
+                <nav class="slider__nav">
+                    <img src="img/product1.jpg" alt="" class="slider__item slider-active">
+                    <img src="img/product2.jpg" alt="" class="slider__item">
+                    <img src="img/product3.jpg" alt="" class="slider__item">
+                    <img src="img/product4.jpg" alt="" class="slider__item">
+                    <img src="img/product5.jpg" alt="" class="slider__item">
+                    <img src="img/product6.jpg" alt="" class="slider__item">
+
+                </nav>
+            </div>
+            <div class="product__info">
+                <h3 class="product__heading">Пижама для Мальчиков</h3>
+                <p class="product__art">Арт. 02765/46</p>
+                <div class="feedback">
+                    <p>Отзывы</p>
+                    <div class="stars">
+                        <span class="star-active"></span>
+                        <span class="star-active"></span>
+                        <span class="star-active"></span>
+                        <span class="star-active"></span>
+                        <span></span>
+                    </div>
+                    <div class="feedBox">
+                        <p>14 отзывов</p>
+                        <div class="arrow"></div>
+                    </div>
+                    
+                </div>
+                <div class="priceBox">
+                    <div class="priceBox__main">
+                        800 ₽ <div class="product__oldPrice">1 500 ₽</div><div class="arrow"></div>
+                    </div>
+                    <div class="priceBox__subInfo">
+                        <div class="priceBox__subText">скидка -36%</div>
+                        <div class="priceBox__subText">акция -20%</div>
+                    </div>
+                </div>
+                <div class="product__properties">
+                    <div class="product__size">
+                        <div class="select-wrp">
+                            <select class="select">
+                                <option disabled selected>Выбрать размер</option>
+                                <option>размер 1</option>
+                                <option>размер 2</option>
+                                <option>размер 3</option>
+                            </select>
+                            <img src="img/icons/arrow.svg" alt="" class="select__arrow">
+                        </div>
+                        
+                        <a href="#" class="product__link">Определить размер</a>
+                    </div>
+                    <div class="product__orderDetails">
+                        <div class="counter">
+                            <div class="counter__add"></div>
+                            <div class="counter__value">1</div>
+                            <div class="counter__remove"></div>
+                        </div>
+                        <div class="product__btnBox">
+                            <button class="product__buttonCart">Добавить в корзину</button>
+                        <button class="product__buttonFav"><img src="img/icons/favoritesWhite.svg" alt=""></button>
+                        </div>
+                        
+                    </div>
+                    <a href="#" class="product__link quickBuy">Купить в 1 клик</a>
+                    <div class="cardForm">
+                        <form action="" class="cardFrom__box">
+                            <div class="exit"><img src="img/icons/cross.svg" alt=""></div>
+                            <h3 class="cardForm__heading">Купить в 1 клик</h3>
+                            <input type="tel" placeholder="+ 7 (---) --- -- -- " name="" id="" class="cardForm__input">
+                            <input type="text" placeholder="Ваше имя" name="" id="" class="cardForm__input">
+                            <div class="line"></div>
+                            <p class="cardForm__Text">
+                                Нажимая кнопку “Отправить”, я даю согласие на обработку моих персональных данных в соответствии с 
+                                <a href="" class="cardForm__Link">Условиями конфиденциальности</a> 
+                            </p>
+                            
+                            <input type="button" value="Отправить" class="cardForm__button">
+                        </form>
+                    </div>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="subInfo">
+                    <div class="subInfo__item">
+                        <img src="img/icons/clothes.svg" alt="clothes" class="subInfo__ico"><a href="" class="subInfo__link">Описание товара</a>
+                    </div>
+                    <div class="subInfo__item">
+                        <img src="img/icons/clock.svg" alt="clock" class="subInfo__ico"><a href="" class="subInfo__link">Доставка и возврат</a>
+                    </div>
+                    <div class="subInfo__item">
+                        <img src="img/icons/card.svg" alt="card" class="subInfo__ico"><a href="" class="subInfo__link">Способы оплаты</a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    <footer class="footer container">
+        <div class="footer__users">
+            <h4 class="footer__heading">покупателям</h4>
+            <ul>
+                <li><a href="" class="footer__link">Каталог</a></li>
+                <li><a href="" class="footer__link">Акции</a></li>
+                <li><a href="" class="footer__link">Бренды</a></li>
+            </ul>
+            
+            
+            
+        </div>
+        <div class="footer__about">
+            <h4 class="footer__heading">о нас</h4>
+            <ul>
+                <li><a href="" class="footer__link">О компании</a></li>
+                <li><a href="" class="footer__link">Новости</a></li>
+                <li><a href="" class="footer__link">Команда</a></li>
+            </ul>
+            
+        </div>
+        <div class="footer__subscribe">
+            <h4 class="footer__heading">Узнайте первыми о новинках и акциях</h4>
+            <form action="">
+                <input type="email" placeholder="Адрес электронной почты" name="" id="" class="footer__input">
+                <input type="button" value="Подписаться" class="footer__btn">
+            </form>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
