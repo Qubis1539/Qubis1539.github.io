@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;600;700&family=Russo+One&display=swap')
+
+*
+    margin: 0
+    padding: 0
+    list-style: none
+    text-decoration: none
+    // font-family: sans-serif
+
+body
+    /* overflow: hidden; */
+    background: rgb(30, 30, 35)
+    font-family: 'Jura', sans-serif
+    font-weight: 600
+    
+.container
+    max-width: 1080px
+    width: 100%
+    margin: 0 auto
+    padding: 0 5px
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+
+main
+    // margin-top: 100vh
+    background: #fff
+    // height: 1000vh
+.heading
+    text-align: center
+    font-family: 'Russo One', sans-serif
+    font-size: 36px
+    margin-bottom: 100px   
+    position: relative
+    &::after
+        content: ""  
+        display: block
+        position: absolute
+        background: #000
+        height: 2px
+        width: 75%
+        bottom: -20px
+        left: 50%
+        transform: translateX(-50%)

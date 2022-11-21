@@ -1,0 +1,19 @@
+body{
+    margin: 0%;
+    /* overflow: hidden; */
+    background: rgb(17, 17, 19);
+}
+#canvas{
+    width: calc(100vw - 18px);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    height: 100vh;
+    background: red;
+}
+@media (max-width:) {
+    
+}
