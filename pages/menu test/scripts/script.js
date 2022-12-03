@@ -13,6 +13,7 @@ burger.addEventListener("click", function() {
     burger.classList.toggle("hamburger_active")
 })
 
+
 activeLinks.forEach((item, id) => {
     item.addEventListener("click", () => {
         activeLinks[mainLinkId].classList.remove("active");
