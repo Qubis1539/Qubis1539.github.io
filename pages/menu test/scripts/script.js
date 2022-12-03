@@ -13,13 +13,6 @@ burger.addEventListener("click", function() {
     burger.classList.toggle("hamburger_active")
 })
 
-// links.forEach(function(item) {   
-//     item.addEventListener("click", function() {
-//         navMenu.classList.add("nav-hide");
-//         burger.classList.remove("hamburger_active")
-//     })
-// })
-
 activeLinks.forEach((item, id) => {
     item.addEventListener("click", () => {
         activeLinks[mainLinkId].classList.remove("active");

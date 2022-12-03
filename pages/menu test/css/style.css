@@ -66,14 +66,14 @@ body {
 }
 
 div.nav-hide {
-  left: -250%;
+  left: -100%;
 }
 
 .nav-wrp {
   position: absolute;
   left: 0;
   top: 0;
-  transition: 0.5s;
+  transition: all 1s;
   background: #fff;
   min-height: 100vh;
   padding: 80px 43px 0px 97px;
