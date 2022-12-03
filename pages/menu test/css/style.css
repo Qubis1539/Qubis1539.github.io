@@ -65,15 +65,15 @@ body {
   width: 0%;
 }
 
-div.nav-hide {
-  left: -100%;
+#nav_menu.nav-hide {
+  left: -50%;
 }
 
 .nav-wrp {
   position: absolute;
   left: 0;
   top: 0;
-  transition: all 1s;
+  transition: all 0.6s ease;
   background: #fff;
   min-height: 100vh;
   padding: 80px 43px 0px 97px;
@@ -160,6 +160,9 @@ div.nav-hide {
 }
 
 @media (max-width: 425px) {
+  #nav_menu.nav-hide {
+    left: -100%;
+  }
   .nav-wrp {
     width: 100%;
     padding-left: 15%;
