@@ -66,7 +66,7 @@ body {
 }
 
 #nav_menu.nav-hide {
-  left: -50%;
+  left: -100%;
 }
 
 .nav-wrp {
@@ -109,8 +109,12 @@ body {
 }
 
 .link_hover:hover {
-  color: #000;
   text-decoration: underline;
+}
+
+.link_hover:active {
+  border-radius: 5px;
+  background: #d8d8d8;
 }
 
 .nav_ico {
@@ -157,12 +161,10 @@ body {
 .drop_list_link {
   display: block;
   padding: 6px 0;
+  padding-left: 5px;
 }
 
 @media (max-width: 425px) {
-  #nav_menu.nav-hide {
-    left: -100%;
-  }
   .nav-wrp {
     width: 100%;
     padding-left: 15%;
